@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: #33475b;
 }
 
 /* UTILITIES */
@@ -72,6 +73,36 @@ body {
 
 .nav-one-right span:nth-child(2) {
     margin-right: 20px;
+}
+
+/* Nav-Bottom */
+.nav-two {
+    line-height: 80px;
+}
+
+.nav-two-left img {
+    vertical-align: middle;
+}
+
+.nav-two-right {
+    text-align: right;
+}
+
+.nav-two-right li {
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.nav-two-right li:first-child {
+    margin-left: 0;
+}
+
+.nav-two-right a {
+    margin-right: 15px;
+    color: #33475b;
+    text-decoration: none;
+
 }
 
 
