@@ -45,6 +45,32 @@ body {
     background-color: #fe775a;
 }
 
+.btn-orange-big {
+    display: inline-block;
+    padding: 20px 35px;
+}
+
+.fa-check-circle {
+    color: #fe775a;
+}
+
+.main-bg {
+    background-color: #f4f9fd;
+}
+
+p {
+    line-height: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: #33475b;
+}
+
+li {
+    list-style: none;
+}
+
 /* HEADER */
 /* Nav-one */
 .nav-one {
@@ -92,7 +118,6 @@ body {
 .nav-two-right li {
     display: inline-block;
     margin-left: 20px;
-    list-style: none;
 }
 
 .nav-two-right li:first-child {
@@ -101,9 +126,6 @@ body {
 
 .nav-two-right a {
     margin-right: 15px;
-    color: #33475b;
-    text-decoration: none;
-
 }
 
 /* MAIN */
@@ -123,15 +145,8 @@ body {
     font-size: 40px;
 }
 
-.banner-left p:not(.small-text) {
-    margin-bottom: 35px;
-    line-height: 28px;
-}
-
-.banner-left .btn-orange {
-    display: inline-block;
-    padding: 20px;
-    min-width: 190px;
+.banner-left p:not(.small-text),
+.banner-left a {
     margin-bottom: 35px;
 }
 
@@ -146,3 +161,100 @@ body {
     border-bottom: 2px solid #000;
 }
 
+/* Main-Content */
+.main-header {
+    padding: 50px 170px;
+    text-align: center;
+}
+
+.main-header img {
+    display: inline-block;
+    width: 250px;
+}
+.main-header h2 {
+    margin-bottom: 35px;
+}
+
+.main-header p {
+    display: inline;
+}
+
+.main-header hr {
+    display: inline-block;
+    width: 10px;
+    vertical-align: middle;
+}
+
+/* Tabella */
+.tab-header {
+    height: 350px;
+    background-color: #fff;
+}
+
+.tab {
+    width: calc(100% / 3 - 30px);
+    height: 650px;
+    margin: 45px 0;
+    background-color: #fff;
+}
+
+.tab-header .image-button {
+    width: 30%;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.tab-header .image-button img {
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+.tab-header .tab-header-text {
+    width: 70%;
+    padding: 60px 120px 0 0;
+
+}
+
+.tab-header .tab-header-text h3 {
+    font-size: 30px;
+}
+
+.tab-header .tab-header-text p {
+    padding: 30px 0 20px;
+}
+
+.tab-header .tab-header-text h4 {
+    display: inline-block;
+    padding: 0 50px 25px 0;
+}
+
+.tab-header .tab-header-text hr {
+    display: inline-block;
+    vertical-align: middle;
+    width: 480px;
+}
+
+.tab-header .tab-header-text li {
+    display: inline-block;
+}
+
+.tab-header .tab-header-text i {
+    margin-right: 10px;
+}
+
+.tab-header .tab-header-text a {
+    margin-right: 20px;
+}
+
+
+.tab.left {
+
+}
+
+.tab.center {
+    margin: 45px 45px;
+}
+
+.tab.right {
+    
+}
