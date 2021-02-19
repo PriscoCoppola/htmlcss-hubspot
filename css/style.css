@@ -238,7 +238,8 @@ li {
     display: inline-block;
 }
 
-.tab-header .tab-header-text i {
+.tab-header .tab-header-text i,
+.tab i {
     margin-right: 10px;
 }
 
@@ -248,13 +249,71 @@ li {
 
 
 .tab.left {
+    padding: 20px 35px;
+    text-align: center;
+}
 
+.tab.left img {
+    width: 100px;
+}
+
+.tab.left h3 {
+    padding: 20px 0 30px;
+    font-size: 30px;
+}
+
+.tab.left hr {
+    margin: 50px 0 35px;
+}
+
+.tab.left ul {
+    padding: 20px 0 40px;
+    text-align: left;
 }
 
 .tab.center {
     margin: 45px 45px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.tab.center img {
+    width: 124px;
+}
+
+.tab.center h3 {
+    padding: 20px 0 30px;
+    font-size: 30px;
+}
+
+.tab.center hr {
+    margin: 50px 0 35px;
+}
+
+.tab.center ul {
+    padding: 20px 0 40px;
+    text-align: left;
 }
 
 .tab.right {
-    
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.tab.right img {
+    width: 91px;
+}
+
+.tab.right h3 {
+    padding: 20px 0 30px;
+    font-size: 30px;
+}
+
+.tab.right hr {
+    margin: 50px 0 35px;
+}
+
+.tab.right ul {
+    padding: 20px 0 40px;
+    text-align: left;
 }
