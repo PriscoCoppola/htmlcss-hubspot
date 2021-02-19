@@ -8,3 +8,70 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+/* UTILITIES */
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float {
+    float: left;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.btn {
+    padding: 10px;
+    text-align: center;
+    color: #fcb9ac;
+    border: 1px solid #fcb9ac;
+    border-radius: 5px;
+}
+
+.btn-orange {
+    text-align: center;
+    color: #fff;
+    background-color: #fe775a;
+}
+
+/* HEADER */
+/* Nav-one */
+.nav-one {
+    line-height: 80px;
+    background-color: #f4f9fd;
+    border-bottom: 1px solid #000;
+}
+
+.nav-one-left .language::after {
+    content: '';
+    padding-left: 20px;
+    border-right: 2px solid #000;
+}
+
+.nav-one-left span:last-child {
+    padding-left: 20px;
+}
+
+.nav-one-right {
+    text-align: right;
+}
+
+.nav-one-right .fa-search {
+    padding-right: 20px;
+    color: #00a5bd;
+}
+
+.nav-one-right span:nth-child(2) {
+    margin-right: 20px;
+}
+
+
