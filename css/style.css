@@ -379,3 +379,49 @@ h2 {
     height: 38px;
 }
 
+/* Brand */
+.brand {
+    height: 250px;
+}
+
+.left-brand {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.left-brand .text-big {
+    padding: 40px 0;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.left-brand #bold {
+    font-weight: bold;
+}
+
+.left-brand div:nth-child(3) {
+    padding: 10px 0;
+}
+
+.right-brand {
+    width: 70%;
+    height: 100%;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.right-brand .ul-one {
+    margin-bottom: 35px;
+}
+
+.right-brand li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.right-brand li img {
+    width: 140px;
+    vertical-align: middle;
+}
+
