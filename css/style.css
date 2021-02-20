@@ -43,11 +43,18 @@ body {
     text-align: center;
     color: #fff;
     background-color: #fe775a;
+    border: 1px solid transparent;
 }
 
 .btn-orange-big {
     display: inline-block;
     padding: 20px 35px;
+}
+
+.btn-white {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid transparent;
 }
 
 .fa-check-circle {
@@ -56,6 +63,10 @@ body {
 
 .main-bg {
     background-color: #f4f9fd;
+}
+
+.bg-footer {
+    background-color: #32495b;
 }
 
 .small-text {
@@ -454,6 +465,52 @@ h2 {
 
 .right-start .image-start img {
     width: 300px;
+}
+
+/* FOOTER */
+/* Footer-Top */
+.footer-top {
+    height: 400px;
+}
+
+.footer-top .footer-tab {
+    width: calc(100% / 4);
+    height: 80%;
+}
+
+.footer-top .footer-tab li {
+    padding: 10px 0;
+}
+
+.footer-top .footer-tab li:first-child {
+    padding: 30px 0 20px;
+    font-weight: bold;
+}
+
+.footer-top .footer-tab a,
+.footer-top .footer-tab i {
+    color: #b6c2cf;
+}
+
+.footer-top .footer-tab a.btn.btn-white {
+    color: #000;
+}
+
+.footer-top .footer-tab .white {
+    color: #fff;
+}
+
+.footer-tab.right li:last-child {
+    padding-top: 20px;
+}
+
+.footer-tab.right .list-two li {
+    display: inline-block;
+    padding: 20px 30px 20px 0;
+}
+
+.footer-tab.right .list-two li:last-child {
+    padding-right: 0;
 }
 
 
