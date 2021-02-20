@@ -71,6 +71,10 @@ li {
     list-style: none;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 /* HEADER */
 /* Nav-one */
 .nav-one {
@@ -189,6 +193,8 @@ li {
 .tab-header {
     height: 350px;
     background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+    border-radius: 5px;
 }
 
 .tab {
@@ -251,6 +257,8 @@ li {
 .tab.left {
     padding: 20px 35px;
     text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+    border-radius: 5px;
 }
 
 .tab.left img {
@@ -275,6 +283,8 @@ li {
     margin: 45px 45px;
     padding: 20px 35px;
     text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+    border-radius: 5px;
 }
 
 .tab.center img {
@@ -298,6 +308,8 @@ li {
 .tab.right {
     padding: 20px 35px;
     text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+    border-radius: 5px;
 }
 
 .tab.right img {
@@ -317,3 +329,53 @@ li {
     padding: 20px 0 40px;
     text-align: left;
 }
+
+/* Gradient */
+.bg-gradient {
+    height: 700px;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(to right, #00a9b8, #00bba7);
+}
+
+.bg-gradient .text-gradient {
+    padding: 50px 0;
+}
+
+.bg-gradient .text-gradient h2 {
+    padding-bottom: 30px;
+}
+
+.bg-gradient .tab-gradient {
+    width: calc(100% / 4);
+    height: 170px;
+    padding: 18px 0;
+}
+
+.bg-gradient .row-one {
+    border-bottom: 1px solid #fff;
+}
+
+.bg-gradient .row-one .left,
+.bg-gradient .row-one .left-center,
+.bg-gradient .row-one .right-center,
+.bg-gradient .row-two .left,
+.bg-gradient .row-two .left-center,
+.bg-gradient .row-two .right-center {
+    border-right: 1px solid #fff;
+}
+
+.bg-gradient .text-big-gradient {
+    padding: 12px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bg-gradient .text-small-gradient {
+    font-size: 12px;
+}
+
+.bg-gradient .row-two .right .image-gradient {
+    height: 38px;
+}
+
