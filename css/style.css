@@ -58,6 +58,10 @@ body {
     background-color: #f4f9fd;
 }
 
+.small-text {
+    font-size: 12px;
+}
+
 p {
     line-height: 28px;
 }
@@ -152,10 +156,6 @@ h2 {
 .banner-left p:not(.small-text),
 .banner-left a {
     margin-bottom: 35px;
-}
-
-.banner-left .small-text {
-    font-size: 12px;
 }
 
 .banner-footer {
@@ -424,4 +424,36 @@ h2 {
     width: 140px;
     vertical-align: middle;
 }
+
+/* Start */
+.start {
+    height: 460px;
+}
+
+.left-start {
+    height: 100%;
+    padding: 50px 0;
+}
+
+.left-start h3 {
+    font-size: 33px;
+}
+
+.left-start p {
+    padding: 30px 0;
+}
+
+.right-start {
+    height: 100%;
+    padding-top: 50px;
+}
+
+.right-start .image-start {
+    float: right;
+}
+
+.right-start .image-start img {
+    width: 300px;
+}
+
 
