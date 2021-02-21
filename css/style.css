@@ -513,4 +513,35 @@ h2 {
     padding-right: 0;
 }
 
+/* Footer-Bottom */
+.footer-bottom .languages {
+    text-align: center;
+    border-bottom: 1px solid #b6c2cf;
+}
 
+.footer-bottom .languages li {
+    display: inline-block;
+    padding: 30px 15px 20px 0;
+    color: #b6c2cf;
+}
+
+.footer-bottom .languages li:last-child {
+    padding-right: 0;
+}
+
+.footer-bottom .footer-tb {
+    color: #b6c2cf;
+}
+
+.footer-bottom .footer-tb.left {
+    padding: 30px 0 40px;
+}
+
+.footer-bottom .footer-tb.right {
+    padding-top: 30px;
+    text-align: right;
+}
+
+.footer-bottom .footer-tb.right span:last-child {
+    padding-left: 20px;
+}
