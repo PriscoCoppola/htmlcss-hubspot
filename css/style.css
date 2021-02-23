@@ -177,33 +177,100 @@ h2 {
 
 .box-menu {
     display: none;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+    width: 800px;
+    height: 400px;
+    background-color: #f5f8fa;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, .5);
     z-index: 10;
     position: absolute;
-    top: 160px;
-    left: 686px;
+    top: 162px;
+    left: 120px;
 }
 
-.box-menu.two {
-    position: absolute;
-    left: 862px;
+.box-menu .container-hover {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
 }
 
-.box-menu.three {
-    position: absolute;
-    left: 940px;
+.box-menu .container-hover span {
+    margin-right: 15px;
+    border-right: 2px solid #000;
 }
 
-.box-menu.four {
-    position: absolute;
-    left: 1048px;
+.box-menu .container-hover a {
+    font-weight: bold;
+    color: #0a95b1;
 }
 
-.box-menu.five {
-    position: absolute;
-    left: 1186px;
+.tab-one,
+.tab-two {
+    padding-top: 20px;
+    line-height: 0px;
+    text-align: left;
+}
+
+.tab-one .left,
+.tab-two .left {
+    padding: 20px;
+    width: 48%;
+    height: 100px;
+    margin-right: 4%;
+    background-color: #fff;
+}
+
+.tab-one .right,
+.tab-two .right {
+    padding: 20px;
+    width: 48%;
+    height: 100px;
+    background-color: #fff;
+}
+
+ .tab-one > .left > h3,
+ .tab-two > .left > h3,
+ .tab-one > .right > h3,
+ .tab-two > .right > h3 {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.tab-one > .left p,
+.tab-one > .left a,
+.tab-two > .left p,
+.tab-two > .left a,
+.tab-one > .right p,
+.tab-one > .right a,
+.tab-two > .right p,
+.tab-two > .right a {
+    font-size: 12px;
+}
+
+.tab-one > .left > .fa-bolt,
+.tab-two > .left > .fa-heart,
+.tab-one > .right > .fa-star,
+.tab-two > .right > .fa-book-open {
+    color: #fe775a;
+}
+
+.tab-two {
+    padding-bottom: 24px;
+}
+
+.box-menu .bottom {
+    padding: 20px;
+    line-height: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, .5);
+}
+
+.bottom > .container-hover {
+    line-height: 24px;
+}
+
+.bottom > .container-hover p {
+    display: inline-block;
 }
 
 .nav-two-right .list-menu .box-menu li {
@@ -211,13 +278,12 @@ h2 {
     line-height: 50px;
 }
 
-.menu .has-submenu:hover .box-menu,
-.menu .has-submenu:hover .box-menu.two {
+.menu .has-submenu:hover .box-menu {
     display: block;
 }
 
 .menu a:hover {
-    color: #fe775a; 
+    color: #fe775a;
 }
 
 /* MAIN */
